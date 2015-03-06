@@ -1,0 +1,36 @@
+<!doctype html>
+<!-- code content section
+title
+style
+script
+html tag
+app
+variables
+block of code
+-->
+<title>milestone</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+<p id="demo"></p>
+
+<script>
+milestone_count = 5;
+reward = "&#x2665;";
+milestone_reached = reward + "&#x2665;";
+
+    if (milestone_count < 1) {
+    document.getElementById("demo").innerHTML = " ";
+    } else if (milestone_count === 1) {
+    document.getElementById("demo").innerHTML = reward;
+    } else if (milestone_count === 2) {
+    document.getElementById("demo").innerHTML = reward + reward;
+    } else if (milestone_count === 3) {
+    document.getElementById("demo").innerHTML = reward + reward + reward;
+    } else if (milestone_count === 4) {
+    document.getElementById("demo").innerHTML = reward + reward + reward + reward;
+    } else if (milestone_count === 5) {
+    document.getElementById("demo").innerHTML = reward + reward + reward + reward + reward;
+    };
+</script>
+<!-- milestone -->
